@@ -9,7 +9,7 @@ import UIKit
 
 class OrangeViewController: UIViewController {
 
-    weak var delegate: GetColorProtocol?
+    var delegate: GetColorProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
