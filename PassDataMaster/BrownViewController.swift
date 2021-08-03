@@ -9,11 +9,11 @@ import UIKit
 
 class BrownViewController: UIViewController {
 
-    weak var color: UIColor?
+    var color: UIColor?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = color
+        view.backgroundColor = color
     }
   
 }
